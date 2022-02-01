@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark text-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">SR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Display Section  -->
+          <section class="display-section bg-dark text-light">
+              <div class="text-container">
+                  <p class="fs-1 fw-bold">Hello,</p>
+                  <p class="fs-2 fw-bold">This Md. Sadikur Rahman</p>
+                  <p class="fs-2">I am a Student & Web Developer</p>
+                  <button class="btn btn-primary fw-bold">Hire me</button>
+                  <button class="btn btn-primary ms-5 fw-bold">Download CV</button>
+              </div>
+              <div class="display-image">
+                  <img src="images/sadik.png" alt="">
+              </div>
+          </section>
+    </header>
+
+    <!-- About Me Section  -->
+
+    <section class="about-section container pt-5 pb-5">
+        <div class="about-image me-5 img-rounded">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-text">
+            <p class="fs-1 fw-bold">About Me</p>
+            <p class="fs-3">I am a Student & Web Developer</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis dolorem laborum unde veritatis, quos nobis inventore numquam distinctio praesentium doloremque incidunt, tempore, perferendis veniam voluptatibus reprehenderit omnis maxime libero quae.</p>
+            <button class="btn btn-dark me-3 fw-bold">Hire Me</button>
+            <button class="btn btn-dark fw-bold">Download CV</button>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section>
+       <h1 class="fs-1 fw-bold text-center mt-5">Services</h1> 
+       <p class="fs-5 text-center">If you want to make a software for your business contact with me. I will make it as soon as possible.</p>
+       <div class="row row-cols-1 row-cols-md-3 g-4  text-center mx-5 px-5 mb-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary fw-bold">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Application</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary fw-bold">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary fw-bold">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me Section  -->
+    <section>
+      <p class="fs-3 fw-bold text-center mt-3">If You have any project in your mind contact with me</p>
+      <div  class="d-flex">
+        <div class="contact-form m-4 w-50">
+          <input type="text" class="form-control" placeholder="Name">
+          <input type="email" class="form-control" placeholder="Enter Your Email">
+          <textarea class="form-control" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+          <button type="button" class="btn btn-secondary mt-2 mb-5 ">Submit</button>
+          </div>
+          <div class="contact-details">
+    
+          </div>
+      </div>
+    </section>
+
+
+
+    <footer class="bg-dark text-light">
+      <p class="text-light">Going-To Internet</p>
+           <p>I makeas soon as possible. You really like my work, if you don't I will change until you like this, and I will give you seicsfaction result</p>
+           <!------------Social Icons---------->
+           <div class="social-icons mb-5">
+               <a href="https://www.facebook.com/profile.php?id=100006677104333"><i class="fab fa-facebook"></i></a>
+               <a href="https://twitter.com/MdSadik04293114"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.linkedin.com/in/md-sadikur-rahman-942010195/"><i class="fab fa-linkedin"></i></a>
+               <a href="https://youtube.com/channel/UC5QFZhm6k6r7WnsQFhuKsfw"><i class="fab fa-youtube"></i></a>
+               <a href="https://www.instagram.com/sadikur1820/"><i class="fab fa-instagram"></i></a>
+               <a href="https://github.com/Sadik182"><i class="fab fa-github"></i></a>
+           </div>
+           <p class="copyright mt-4 text-light">Copyright by Md. Sadikur Rahman</p>
+    </footer>
+</body>
+</html>
